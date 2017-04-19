@@ -1,0 +1,99 @@
+
+.checkBoxDiv{
+
+width: 200px;
+height: 45px;	
+border: 1px black solid;
+display: inline-block;
+
+}
+
+.check{
+	margin-top: 14px;
+	margin-left: 15px;
+}
+
+#myDiv{
+margin-top: 10px;
+width: 100%;
+height: 500px;
+position: relative;
+
+}
+
+.wrapperdiv{
+
+	display: inline-block;
+	width:99%;
+	height:65px;
+	position: relative;
+}
+
+.griddiv0, .griddiv1, .griddiv2, .griddiv3, .griddiv4, .griddiv5, .griddiv6{
+	display: inline-block;
+	width:13.5%;
+	height:65px;
+	border: 1px grey solid;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 150%; 
+    font-family: 'Calibri', Candara;
+    position: relative;
+
+
+}
+
+
+.paraindiv0, .paraindiv1 {
+
+	width: 90%;
+	height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px; 
+    margin: 2px;
+    display:block;
+
+
+}
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 1px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+
+
+ #dropdown-content {
+ 	margin-top: 4px;
+ 	display: none;
+    position: relative;
+    background-color: #f9f9f9;
+   	width: 120px;
+   	height: auto;
+   	z-index: 1;
+   	border: 2px black solid;
+   	text-align: left;
+   
+}
+.show {
+	display:block;
+}
+
+.dropdown{
+	width: 95%;
+	height: 50%;
+    font-family: 'Open Sans', sans-serif;
+  
+    margin: 2px;
+    display:block;
+    position: relative;
+
+}
+
